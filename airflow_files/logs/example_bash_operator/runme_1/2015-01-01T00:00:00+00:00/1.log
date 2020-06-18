@@ -1,0 +1,19 @@
+[2020-06-05 01:26:25,536] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_1 2015-01-01T00:00:00+00:00 [queued]>
+[2020-06-05 01:26:25,547] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.runme_1 2015-01-01T00:00:00+00:00 [queued]>
+[2020-06-05 01:26:25,547] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 01:26:25,547] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-06-05 01:26:25,548] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-05 01:26:25,556] {taskinstance.py:900} INFO - Executing <Task(BashOperator): runme_1> on 2015-01-01T00:00:00+00:00
+[2020-06-05 01:26:25,559] {standard_task_runner.py:53} INFO - Started process 6059 to run task
+[2020-06-05 01:26:25,652] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: example_bash_operator.runme_1 2015-01-01T00:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-06-05 01:26:25,678] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /var/folders/jk/bwh6mk3d71s4w_mb373dxcsr0000gn/T
+[2020-06-05 01:26:25,679] {bash_operator.py:103} INFO - Temporary script location: /var/folders/jk/bwh6mk3d71s4w_mb373dxcsr0000gn/T/airflowtmpbxdsm2_c/runme_115dqz1p0
+[2020-06-05 01:26:25,680] {bash_operator.py:115} INFO - Running command: echo "example_bash_operator__runme_1__20150101" && sleep 1
+[2020-06-05 01:26:25,687] {bash_operator.py:122} INFO - Output:
+[2020-06-05 01:26:25,691] {bash_operator.py:126} INFO - example_bash_operator__runme_1__20150101
+[2020-06-05 01:26:26,697] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-06-05 01:26:26,711] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=example_bash_operator, task_id=runme_1, execution_date=20150101T000000, start_date=20200605T052625, end_date=20200605T052626
+[2020-06-05 01:26:35,528] {logging_mixin.py:112} INFO - [2020-06-05 01:26:35,527] {local_task_job.py:103} INFO - Task exited with return code 0

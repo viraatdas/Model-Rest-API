@@ -22,7 +22,7 @@ def predict():
 
     # if parameters are found, return a prediction
     if (params != None):
-        x=pd.DataFrame.from_dict(params, orient='index').transpose()
+        x = pd.DataFrame.from_dict(params, orient='index').transpose()
         data["prediction"] = str(model.predict(x))
         data["success"] = True
 

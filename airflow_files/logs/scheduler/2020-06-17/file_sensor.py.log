@@ -1,0 +1,680 @@
+[2020-06-16 23:04:52,747] {scheduler_job.py:154} INFO - Started process (PID=55460) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:04:52,759] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:04:52,761] {logging_mixin.py:112} INFO - [2020-06-16 23:04:52,760] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:04:52,783] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:04:52,860] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:04:52,937] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:10:00+00:00: scheduled__2020-06-11T04:10:00+00:00, externally triggered: False>
+[2020-06-16 23:04:52,947] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:00:00+00:00: scheduled__2020-06-11T03:00:00+00:00, externally triggered: False>
+[2020-06-16 23:04:52,997] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:10:00+00:00: scheduled__2020-06-11T03:10:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,020] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:15:00+00:00: scheduled__2020-06-11T03:15:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,044] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:20:00+00:00: scheduled__2020-06-11T03:20:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,065] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:25:00+00:00: scheduled__2020-06-11T03:25:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,150] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:30:00+00:00: scheduled__2020-06-11T03:30:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,451] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:35:00+00:00: scheduled__2020-06-11T03:35:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,593] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:40:00+00:00: scheduled__2020-06-11T03:40:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,669] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:45:00+00:00: scheduled__2020-06-11T03:45:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,851] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:50:00+00:00: scheduled__2020-06-11T03:50:00+00:00, externally triggered: False>
+[2020-06-16 23:04:53,992] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:55:00+00:00: scheduled__2020-06-11T03:55:00+00:00, externally triggered: False>
+[2020-06-16 23:04:54,038] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:00:00+00:00: scheduled__2020-06-11T04:00:00+00:00, externally triggered: False>
+[2020-06-16 23:04:54,099] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:04:54,160] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:10:00+00:00: scheduled__2020-06-11T04:10:00+00:00, externally triggered: False>
+[2020-06-16 23:04:54,196] {logging_mixin.py:112} INFO - [2020-06-16 23:04:54,195] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:10:00+00:00: scheduled__2020-06-11T04:10:00+00:00, externally triggered: False> successful
+[2020-06-16 23:04:54,974] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:04:54,988] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:00:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,199] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:10:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,206] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:15:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,214] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:20:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,222] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:25:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,230] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:30:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,238] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:35:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,246] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:40:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,256] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:45:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,266] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:50:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,280] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 03:55:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,287] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 04:00:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,294] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 04:05:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:04:55,315] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 2.568 seconds
+[2020-06-16 23:10:13,270] {scheduler_job.py:154} INFO - Started process (PID=55708) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:10:13,284] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:10:13,285] {logging_mixin.py:112} INFO - [2020-06-16 23:10:13,285] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:10:13,311] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:10:13,353] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:10:13,403] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:15:00+00:00: scheduled__2020-06-11T04:15:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,409] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:00:00+00:00: scheduled__2020-06-11T03:00:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,437] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:10:00+00:00: scheduled__2020-06-11T03:10:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,464] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:15:00+00:00: scheduled__2020-06-11T03:15:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,489] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:20:00+00:00: scheduled__2020-06-11T03:20:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,512] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:25:00+00:00: scheduled__2020-06-11T03:25:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,539] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:30:00+00:00: scheduled__2020-06-11T03:30:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,572] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:35:00+00:00: scheduled__2020-06-11T03:35:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,596] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:40:00+00:00: scheduled__2020-06-11T03:40:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,625] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:45:00+00:00: scheduled__2020-06-11T03:45:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,651] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:50:00+00:00: scheduled__2020-06-11T03:50:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,675] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:55:00+00:00: scheduled__2020-06-11T03:55:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,701] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:00:00+00:00: scheduled__2020-06-11T04:00:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,727] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,747] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:15:00+00:00: scheduled__2020-06-11T04:15:00+00:00, externally triggered: False>
+[2020-06-16 23:10:13,759] {logging_mixin.py:112} INFO - [2020-06-16 23:10:13,758] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:15:00+00:00: scheduled__2020-06-11T04:15:00+00:00, externally triggered: False> successful
+[2020-06-16 23:10:13,857] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:10:13,861] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.591 seconds
+[2020-06-16 23:11:05,516] {scheduler_job.py:154} INFO - Started process (PID=55746) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:11:05,549] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:11:05,552] {logging_mixin.py:112} INFO - [2020-06-16 23:11:05,551] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:11:05,589] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:11:05,688] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:11:05,857] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:20:00+00:00: scheduled__2020-06-11T04:20:00+00:00, externally triggered: False>
+[2020-06-16 23:11:05,869] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:00:00+00:00: scheduled__2020-06-11T03:00:00+00:00, externally triggered: False>
+[2020-06-16 23:11:05,903] {logging_mixin.py:112} INFO - [2020-06-16 23:11:05,902] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:00:00+00:00: scheduled__2020-06-11T03:00:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:05,916] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:10:00+00:00: scheduled__2020-06-11T03:10:00+00:00, externally triggered: False>
+[2020-06-16 23:11:05,977] {logging_mixin.py:112} INFO - [2020-06-16 23:11:05,975] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:10:00+00:00: scheduled__2020-06-11T03:10:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:05,987] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:15:00+00:00: scheduled__2020-06-11T03:15:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,023] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,022] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:15:00+00:00: scheduled__2020-06-11T03:15:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,035] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:20:00+00:00: scheduled__2020-06-11T03:20:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,077] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,075] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:20:00+00:00: scheduled__2020-06-11T03:20:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,083] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:25:00+00:00: scheduled__2020-06-11T03:25:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,116] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,106] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:25:00+00:00: scheduled__2020-06-11T03:25:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,136] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:30:00+00:00: scheduled__2020-06-11T03:30:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,174] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,173] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:30:00+00:00: scheduled__2020-06-11T03:30:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,188] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:35:00+00:00: scheduled__2020-06-11T03:35:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,229] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,227] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:35:00+00:00: scheduled__2020-06-11T03:35:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,251] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:40:00+00:00: scheduled__2020-06-11T03:40:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,275] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,275] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:40:00+00:00: scheduled__2020-06-11T03:40:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,281] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:45:00+00:00: scheduled__2020-06-11T03:45:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,340] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,339] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:45:00+00:00: scheduled__2020-06-11T03:45:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,346] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:50:00+00:00: scheduled__2020-06-11T03:50:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,391] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,384] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:50:00+00:00: scheduled__2020-06-11T03:50:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,457] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 03:55:00+00:00: scheduled__2020-06-11T03:55:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,474] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,473] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 03:55:00+00:00: scheduled__2020-06-11T03:55:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,500] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:00:00+00:00: scheduled__2020-06-11T04:00:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,562] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,561] {dagrun.py:309} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:00:00+00:00: scheduled__2020-06-11T04:00:00+00:00, externally triggered: False> failed
+[2020-06-16 23:11:06,572] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,640] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:20:00+00:00: scheduled__2020-06-11T04:20:00+00:00, externally triggered: False>
+[2020-06-16 23:11:06,665] {logging_mixin.py:112} INFO - [2020-06-16 23:11:06,664] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:20:00+00:00: scheduled__2020-06-11T04:20:00+00:00, externally triggered: False> successful
+[2020-06-16 23:11:06,696] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:11:06,704] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 1.187 seconds
+[2020-06-16 23:11:57,736] {scheduler_job.py:154} INFO - Started process (PID=55792) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:11:57,747] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:11:57,748] {logging_mixin.py:112} INFO - [2020-06-16 23:11:57,748] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:11:57,775] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:11:57,821] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:11:57,877] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:25:00+00:00: scheduled__2020-06-11T04:25:00+00:00, externally triggered: False>
+[2020-06-16 23:11:57,887] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:11:57,911] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:25:00+00:00: scheduled__2020-06-11T04:25:00+00:00, externally triggered: False>
+[2020-06-16 23:11:57,926] {logging_mixin.py:112} INFO - [2020-06-16 23:11:57,925] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:25:00+00:00: scheduled__2020-06-11T04:25:00+00:00, externally triggered: False> successful
+[2020-06-16 23:11:58,001] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:11:58,010] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.274 seconds
+[2020-06-16 23:12:49,925] {scheduler_job.py:154} INFO - Started process (PID=55835) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:12:49,941] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:12:49,944] {logging_mixin.py:112} INFO - [2020-06-16 23:12:49,942] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:12:49,963] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:12:50,006] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:12:50,048] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:30:00+00:00: scheduled__2020-06-11T04:30:00+00:00, externally triggered: False>
+[2020-06-16 23:12:50,055] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:12:50,088] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:30:00+00:00: scheduled__2020-06-11T04:30:00+00:00, externally triggered: False>
+[2020-06-16 23:12:50,106] {logging_mixin.py:112} INFO - [2020-06-16 23:12:50,105] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:30:00+00:00: scheduled__2020-06-11T04:30:00+00:00, externally triggered: False> successful
+[2020-06-16 23:12:50,145] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:12:50,151] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.226 seconds
+[2020-06-16 23:13:42,146] {scheduler_job.py:154} INFO - Started process (PID=55879) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:13:42,159] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:13:42,164] {logging_mixin.py:112} INFO - [2020-06-16 23:13:42,163] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:13:42,203] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:13:42,254] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:13:42,313] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:35:00+00:00: scheduled__2020-06-11T04:35:00+00:00, externally triggered: False>
+[2020-06-16 23:13:42,325] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:13:42,375] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:35:00+00:00: scheduled__2020-06-11T04:35:00+00:00, externally triggered: False>
+[2020-06-16 23:13:42,400] {logging_mixin.py:112} INFO - [2020-06-16 23:13:42,399] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:35:00+00:00: scheduled__2020-06-11T04:35:00+00:00, externally triggered: False> successful
+[2020-06-16 23:13:42,439] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:13:42,448] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.302 seconds
+[2020-06-16 23:14:34,343] {scheduler_job.py:154} INFO - Started process (PID=55917) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:14:34,353] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:14:34,354] {logging_mixin.py:112} INFO - [2020-06-16 23:14:34,354] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:14:34,383] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:14:34,425] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:14:34,462] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:40:00+00:00: scheduled__2020-06-11T04:40:00+00:00, externally triggered: False>
+[2020-06-16 23:14:34,467] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:14:34,486] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:40:00+00:00: scheduled__2020-06-11T04:40:00+00:00, externally triggered: False>
+[2020-06-16 23:14:34,498] {logging_mixin.py:112} INFO - [2020-06-16 23:14:34,497] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:40:00+00:00: scheduled__2020-06-11T04:40:00+00:00, externally triggered: False> successful
+[2020-06-16 23:14:34,519] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:14:34,523] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.179 seconds
+[2020-06-16 23:15:26,581] {scheduler_job.py:154} INFO - Started process (PID=55958) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:15:26,594] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:15:26,596] {logging_mixin.py:112} INFO - [2020-06-16 23:15:26,595] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:15:26,621] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:15:26,664] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:15:26,702] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:45:00+00:00: scheduled__2020-06-11T04:45:00+00:00, externally triggered: False>
+[2020-06-16 23:15:26,707] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:15:26,724] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:45:00+00:00: scheduled__2020-06-11T04:45:00+00:00, externally triggered: False>
+[2020-06-16 23:15:26,736] {logging_mixin.py:112} INFO - [2020-06-16 23:15:26,735] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:45:00+00:00: scheduled__2020-06-11T04:45:00+00:00, externally triggered: False> successful
+[2020-06-16 23:15:26,756] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:15:26,760] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.180 seconds
+[2020-06-16 23:16:18,793] {scheduler_job.py:154} INFO - Started process (PID=55998) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:16:18,802] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:16:18,804] {logging_mixin.py:112} INFO - [2020-06-16 23:16:18,803] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:16:18,829] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:16:18,879] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:16:18,928] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:50:00+00:00: scheduled__2020-06-11T04:50:00+00:00, externally triggered: False>
+[2020-06-16 23:16:18,934] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:16:18,960] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:50:00+00:00: scheduled__2020-06-11T04:50:00+00:00, externally triggered: False>
+[2020-06-16 23:16:18,975] {logging_mixin.py:112} INFO - [2020-06-16 23:16:18,974] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:50:00+00:00: scheduled__2020-06-11T04:50:00+00:00, externally triggered: False> successful
+[2020-06-16 23:16:19,005] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:16:19,010] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.217 seconds
+[2020-06-16 23:17:10,975] {scheduler_job.py:154} INFO - Started process (PID=57691) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:17:10,992] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:17:10,994] {logging_mixin.py:112} INFO - [2020-06-16 23:17:10,993] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:17:11,030] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:17:11,097] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:17:11,167] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T04:55:00+00:00: scheduled__2020-06-11T04:55:00+00:00, externally triggered: False>
+[2020-06-16 23:17:11,175] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:17:11,203] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:55:00+00:00: scheduled__2020-06-11T04:55:00+00:00, externally triggered: False>
+[2020-06-16 23:17:11,219] {logging_mixin.py:112} INFO - [2020-06-16 23:17:11,218] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:55:00+00:00: scheduled__2020-06-11T04:55:00+00:00, externally triggered: False> successful
+[2020-06-16 23:17:11,255] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:17:11,263] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.288 seconds
+[2020-06-16 23:18:03,171] {scheduler_job.py:154} INFO - Started process (PID=57740) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:18:03,183] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:18:03,185] {logging_mixin.py:112} INFO - [2020-06-16 23:18:03,185] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:18:03,206] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:18:03,249] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:18:03,294] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:00:00+00:00: scheduled__2020-06-11T05:00:00+00:00, externally triggered: False>
+[2020-06-16 23:18:03,300] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:18:03,323] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:00:00+00:00: scheduled__2020-06-11T05:00:00+00:00, externally triggered: False>
+[2020-06-16 23:18:03,336] {logging_mixin.py:112} INFO - [2020-06-16 23:18:03,336] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:00:00+00:00: scheduled__2020-06-11T05:00:00+00:00, externally triggered: False> successful
+[2020-06-16 23:18:03,363] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:18:03,369] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.198 seconds
+[2020-06-16 23:18:55,396] {scheduler_job.py:154} INFO - Started process (PID=57777) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:18:55,409] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:18:55,411] {logging_mixin.py:112} INFO - [2020-06-16 23:18:55,411] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:18:55,432] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:18:55,478] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:18:55,522] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:05:00+00:00: scheduled__2020-06-11T05:05:00+00:00, externally triggered: False>
+[2020-06-16 23:18:55,527] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:18:55,545] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:05:00+00:00: scheduled__2020-06-11T05:05:00+00:00, externally triggered: False>
+[2020-06-16 23:18:55,557] {logging_mixin.py:112} INFO - [2020-06-16 23:18:55,556] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:05:00+00:00: scheduled__2020-06-11T05:05:00+00:00, externally triggered: False> successful
+[2020-06-16 23:18:55,584] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:18:55,590] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.194 seconds
+[2020-06-16 23:19:47,599] {scheduler_job.py:154} INFO - Started process (PID=57816) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:19:47,608] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:19:47,610] {logging_mixin.py:112} INFO - [2020-06-16 23:19:47,609] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:19:47,632] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:19:47,674] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:19:47,712] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:10:00+00:00: scheduled__2020-06-11T05:10:00+00:00, externally triggered: False>
+[2020-06-16 23:19:47,718] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:19:47,738] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:10:00+00:00: scheduled__2020-06-11T05:10:00+00:00, externally triggered: False>
+[2020-06-16 23:19:47,752] {logging_mixin.py:112} INFO - [2020-06-16 23:19:47,751] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:10:00+00:00: scheduled__2020-06-11T05:10:00+00:00, externally triggered: False> successful
+[2020-06-16 23:19:47,774] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:19:47,778] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.179 seconds
+[2020-06-16 23:20:39,803] {scheduler_job.py:154} INFO - Started process (PID=57855) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:20:39,812] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:20:39,813] {logging_mixin.py:112} INFO - [2020-06-16 23:20:39,813] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:20:39,829] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:20:39,871] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:20:39,909] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:15:00+00:00: scheduled__2020-06-11T05:15:00+00:00, externally triggered: False>
+[2020-06-16 23:20:39,913] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:20:39,929] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:15:00+00:00: scheduled__2020-06-11T05:15:00+00:00, externally triggered: False>
+[2020-06-16 23:20:39,942] {logging_mixin.py:112} INFO - [2020-06-16 23:20:39,941] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:15:00+00:00: scheduled__2020-06-11T05:15:00+00:00, externally triggered: False> successful
+[2020-06-16 23:20:39,962] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:20:39,966] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.163 seconds
+[2020-06-16 23:21:31,952] {scheduler_job.py:154} INFO - Started process (PID=57896) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:21:31,962] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:21:31,963] {logging_mixin.py:112} INFO - [2020-06-16 23:21:31,963] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:21:31,985] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:21:32,039] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:21:32,080] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:20:00+00:00: scheduled__2020-06-11T05:20:00+00:00, externally triggered: False>
+[2020-06-16 23:21:32,090] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:21:32,112] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:20:00+00:00: scheduled__2020-06-11T05:20:00+00:00, externally triggered: False>
+[2020-06-16 23:21:32,134] {logging_mixin.py:112} INFO - [2020-06-16 23:21:32,133] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:20:00+00:00: scheduled__2020-06-11T05:20:00+00:00, externally triggered: False> successful
+[2020-06-16 23:21:32,164] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:21:32,173] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.220 seconds
+[2020-06-16 23:23:01,109] {scheduler_job.py:154} INFO - Started process (PID=58055) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:23:01,119] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:23:01,121] {logging_mixin.py:112} INFO - [2020-06-16 23:23:01,121] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:23:01,139] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:23:01,188] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:23:01,231] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:25:00+00:00: scheduled__2020-06-11T05:25:00+00:00, externally triggered: False>
+[2020-06-16 23:23:01,235] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:23:01,251] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:25:00+00:00: scheduled__2020-06-11T05:25:00+00:00, externally triggered: False>
+[2020-06-16 23:23:01,264] {logging_mixin.py:112} INFO - [2020-06-16 23:23:01,264] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:25:00+00:00: scheduled__2020-06-11T05:25:00+00:00, externally triggered: False> successful
+[2020-06-16 23:23:01,286] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:23:01,292] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.183 seconds
+[2020-06-16 23:23:53,276] {scheduler_job.py:154} INFO - Started process (PID=58095) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:23:53,288] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:23:53,290] {logging_mixin.py:112} INFO - [2020-06-16 23:23:53,290] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:23:53,315] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:23:53,365] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:23:53,415] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:30:00+00:00: scheduled__2020-06-11T05:30:00+00:00, externally triggered: False>
+[2020-06-16 23:23:53,421] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:23:53,435] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:30:00+00:00: scheduled__2020-06-11T05:30:00+00:00, externally triggered: False>
+[2020-06-16 23:23:53,449] {logging_mixin.py:112} INFO - [2020-06-16 23:23:53,448] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:30:00+00:00: scheduled__2020-06-11T05:30:00+00:00, externally triggered: False> successful
+[2020-06-16 23:23:53,473] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:23:53,478] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.203 seconds
+[2020-06-16 23:24:45,407] {scheduler_job.py:154} INFO - Started process (PID=58134) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:24:45,417] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:24:45,419] {logging_mixin.py:112} INFO - [2020-06-16 23:24:45,418] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:24:45,440] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:24:45,483] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:24:45,530] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:35:00+00:00: scheduled__2020-06-11T05:35:00+00:00, externally triggered: False>
+[2020-06-16 23:24:45,535] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:24:45,550] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:35:00+00:00: scheduled__2020-06-11T05:35:00+00:00, externally triggered: False>
+[2020-06-16 23:24:45,560] {logging_mixin.py:112} INFO - [2020-06-16 23:24:45,560] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:35:00+00:00: scheduled__2020-06-11T05:35:00+00:00, externally triggered: False> successful
+[2020-06-16 23:24:45,582] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:24:45,588] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.181 seconds
+[2020-06-16 23:25:48,585] {scheduler_job.py:154} INFO - Started process (PID=58209) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:25:48,602] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:25:48,605] {logging_mixin.py:112} INFO - [2020-06-16 23:25:48,604] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:25:48,622] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:25:48,658] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:25:48,695] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:40:00+00:00: scheduled__2020-06-11T05:40:00+00:00, externally triggered: False>
+[2020-06-16 23:25:48,699] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:25:48,710] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:40:00+00:00: scheduled__2020-06-11T05:40:00+00:00, externally triggered: False>
+[2020-06-16 23:25:48,721] {logging_mixin.py:112} INFO - [2020-06-16 23:25:48,720] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:40:00+00:00: scheduled__2020-06-11T05:40:00+00:00, externally triggered: False> successful
+[2020-06-16 23:25:48,737] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:25:48,741] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.155 seconds
+[2020-06-16 23:26:40,760] {scheduler_job.py:154} INFO - Started process (PID=58249) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:26:40,774] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:26:40,777] {logging_mixin.py:112} INFO - [2020-06-16 23:26:40,776] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:26:40,806] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:26:40,873] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:26:40,912] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:45:00+00:00: scheduled__2020-06-11T05:45:00+00:00, externally triggered: False>
+[2020-06-16 23:26:40,917] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:26:40,932] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:45:00+00:00: scheduled__2020-06-11T05:45:00+00:00, externally triggered: False>
+[2020-06-16 23:26:40,950] {logging_mixin.py:112} INFO - [2020-06-16 23:26:40,949] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:45:00+00:00: scheduled__2020-06-11T05:45:00+00:00, externally triggered: False> successful
+[2020-06-16 23:26:40,972] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:26:40,976] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.216 seconds
+[2020-06-16 23:27:32,963] {scheduler_job.py:154} INFO - Started process (PID=58301) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:27:32,985] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:27:32,987] {logging_mixin.py:112} INFO - [2020-06-16 23:27:32,986] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:27:33,022] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:27:33,099] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:27:33,155] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:50:00+00:00: scheduled__2020-06-11T05:50:00+00:00, externally triggered: False>
+[2020-06-16 23:27:33,163] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:27:33,184] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:50:00+00:00: scheduled__2020-06-11T05:50:00+00:00, externally triggered: False>
+[2020-06-16 23:27:33,204] {logging_mixin.py:112} INFO - [2020-06-16 23:27:33,203] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:50:00+00:00: scheduled__2020-06-11T05:50:00+00:00, externally triggered: False> successful
+[2020-06-16 23:27:33,226] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:27:33,230] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.267 seconds
+[2020-06-16 23:28:05,769] {scheduler_job.py:154} INFO - Started process (PID=58359) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:28:05,781] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:28:05,783] {logging_mixin.py:112} INFO - [2020-06-16 23:28:05,782] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:28:05,806] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:28:05,911] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:28:06,045] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T05:55:00+00:00: scheduled__2020-06-11T05:55:00+00:00, externally triggered: False>
+[2020-06-16 23:28:06,055] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:28:06,097] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 05:55:00+00:00: scheduled__2020-06-11T05:55:00+00:00, externally triggered: False>
+[2020-06-16 23:28:06,125] {logging_mixin.py:112} INFO - [2020-06-16 23:28:06,123] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 05:55:00+00:00: scheduled__2020-06-11T05:55:00+00:00, externally triggered: False> successful
+[2020-06-16 23:28:06,155] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:28:06,164] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.395 seconds
+[2020-06-16 23:28:57,983] {scheduler_job.py:154} INFO - Started process (PID=58408) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:28:57,996] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:28:57,999] {logging_mixin.py:112} INFO - [2020-06-16 23:28:57,998] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:28:58,020] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:28:58,075] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:28:58,125] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:00:00+00:00: scheduled__2020-06-11T06:00:00+00:00, externally triggered: False>
+[2020-06-16 23:28:58,131] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:28:58,150] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:00:00+00:00: scheduled__2020-06-11T06:00:00+00:00, externally triggered: False>
+[2020-06-16 23:28:58,169] {logging_mixin.py:112} INFO - [2020-06-16 23:28:58,167] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:00:00+00:00: scheduled__2020-06-11T06:00:00+00:00, externally triggered: False> successful
+[2020-06-16 23:28:58,188] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:28:58,195] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: file_sensor_test_v1.predict_model 2020-06-11 04:05:00+00:00 [scheduled]> in ORM
+[2020-06-16 23:28:58,206] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.223 seconds
+[2020-06-16 23:30:29,524] {scheduler_job.py:154} INFO - Started process (PID=58500) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:30:29,534] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:30:29,536] {logging_mixin.py:112} INFO - [2020-06-16 23:30:29,535] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:30:29,557] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:30:29,613] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:30:29,670] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:05:00+00:00: scheduled__2020-06-11T06:05:00+00:00, externally triggered: False>
+[2020-06-16 23:30:29,676] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:30:29,691] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:05:00+00:00: scheduled__2020-06-11T06:05:00+00:00, externally triggered: False>
+[2020-06-16 23:30:29,703] {logging_mixin.py:112} INFO - [2020-06-16 23:30:29,703] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:05:00+00:00: scheduled__2020-06-11T06:05:00+00:00, externally triggered: False> successful
+[2020-06-16 23:30:29,713] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:30:29,717] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.194 seconds
+[2020-06-16 23:31:21,710] {scheduler_job.py:154} INFO - Started process (PID=58550) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:31:21,720] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:31:21,721] {logging_mixin.py:112} INFO - [2020-06-16 23:31:21,721] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:31:21,752] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:31:21,802] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:31:21,877] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:10:00+00:00: scheduled__2020-06-11T06:10:00+00:00, externally triggered: False>
+[2020-06-16 23:31:21,882] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:31:21,897] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:10:00+00:00: scheduled__2020-06-11T06:10:00+00:00, externally triggered: False>
+[2020-06-16 23:31:21,908] {logging_mixin.py:112} INFO - [2020-06-16 23:31:21,908] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:10:00+00:00: scheduled__2020-06-11T06:10:00+00:00, externally triggered: False> successful
+[2020-06-16 23:31:21,922] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:31:21,927] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.218 seconds
+[2020-06-16 23:32:33,397] {scheduler_job.py:154} INFO - Started process (PID=58637) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:32:33,410] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:32:33,412] {logging_mixin.py:112} INFO - [2020-06-16 23:32:33,411] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:32:33,436] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:32:33,475] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:32:33,708] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:15:00+00:00: scheduled__2020-06-11T06:15:00+00:00, externally triggered: False>
+[2020-06-16 23:32:33,717] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:32:33,739] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:15:00+00:00: scheduled__2020-06-11T06:15:00+00:00, externally triggered: False>
+[2020-06-16 23:32:33,753] {logging_mixin.py:112} INFO - [2020-06-16 23:32:33,753] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:15:00+00:00: scheduled__2020-06-11T06:15:00+00:00, externally triggered: False> successful
+[2020-06-16 23:32:33,765] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:32:33,771] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.373 seconds
+[2020-06-16 23:33:25,600] {scheduler_job.py:154} INFO - Started process (PID=58800) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:33:25,617] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:33:25,620] {logging_mixin.py:112} INFO - [2020-06-16 23:33:25,619] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:33:25,656] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:33:25,720] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:33:25,775] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:20:00+00:00: scheduled__2020-06-11T06:20:00+00:00, externally triggered: False>
+[2020-06-16 23:33:25,781] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:33:25,794] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:20:00+00:00: scheduled__2020-06-11T06:20:00+00:00, externally triggered: False>
+[2020-06-16 23:33:25,809] {logging_mixin.py:112} INFO - [2020-06-16 23:33:25,808] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:20:00+00:00: scheduled__2020-06-11T06:20:00+00:00, externally triggered: False> successful
+[2020-06-16 23:33:25,822] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:33:25,851] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.251 seconds
+[2020-06-16 23:34:17,799] {scheduler_job.py:154} INFO - Started process (PID=58869) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:34:17,815] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:34:17,818] {logging_mixin.py:112} INFO - [2020-06-16 23:34:17,817] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:34:17,856] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:34:17,931] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:34:18,101] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:25:00+00:00: scheduled__2020-06-11T06:25:00+00:00, externally triggered: False>
+[2020-06-16 23:34:18,118] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:34:18,168] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:25:00+00:00: scheduled__2020-06-11T06:25:00+00:00, externally triggered: False>
+[2020-06-16 23:34:18,209] {logging_mixin.py:112} INFO - [2020-06-16 23:34:18,208] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:25:00+00:00: scheduled__2020-06-11T06:25:00+00:00, externally triggered: False> successful
+[2020-06-16 23:34:18,228] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:34:18,236] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.437 seconds
+[2020-06-16 23:35:10,027] {scheduler_job.py:154} INFO - Started process (PID=58935) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:35:10,045] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:35:10,049] {logging_mixin.py:112} INFO - [2020-06-16 23:35:10,046] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:35:10,090] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:35:10,280] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:35:10,348] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:30:00+00:00: scheduled__2020-06-11T06:30:00+00:00, externally triggered: False>
+[2020-06-16 23:35:10,356] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:35:10,376] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:30:00+00:00: scheduled__2020-06-11T06:30:00+00:00, externally triggered: False>
+[2020-06-16 23:35:10,389] {logging_mixin.py:112} INFO - [2020-06-16 23:35:10,388] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:30:00+00:00: scheduled__2020-06-11T06:30:00+00:00, externally triggered: False> successful
+[2020-06-16 23:35:10,399] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:35:10,403] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.376 seconds
+[2020-06-16 23:36:02,211] {scheduler_job.py:154} INFO - Started process (PID=58977) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:36:02,224] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:36:02,227] {logging_mixin.py:112} INFO - [2020-06-16 23:36:02,226] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:36:02,259] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:36:02,311] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:36:02,369] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:35:00+00:00: scheduled__2020-06-11T06:35:00+00:00, externally triggered: False>
+[2020-06-16 23:36:02,379] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:36:02,396] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:35:00+00:00: scheduled__2020-06-11T06:35:00+00:00, externally triggered: False>
+[2020-06-16 23:36:02,411] {logging_mixin.py:112} INFO - [2020-06-16 23:36:02,410] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:35:00+00:00: scheduled__2020-06-11T06:35:00+00:00, externally triggered: False> successful
+[2020-06-16 23:36:02,432] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:36:02,442] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.232 seconds
+[2020-06-16 23:36:54,477] {scheduler_job.py:154} INFO - Started process (PID=59016) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:36:54,514] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:36:54,517] {logging_mixin.py:112} INFO - [2020-06-16 23:36:54,516] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:36:54,548] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:36:54,614] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:36:54,660] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:40:00+00:00: scheduled__2020-06-11T06:40:00+00:00, externally triggered: False>
+[2020-06-16 23:36:54,666] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:36:54,681] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:40:00+00:00: scheduled__2020-06-11T06:40:00+00:00, externally triggered: False>
+[2020-06-16 23:36:54,699] {logging_mixin.py:112} INFO - [2020-06-16 23:36:54,697] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:40:00+00:00: scheduled__2020-06-11T06:40:00+00:00, externally triggered: False> successful
+[2020-06-16 23:36:54,710] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:36:54,716] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.240 seconds
+[2020-06-16 23:37:45,563] {scheduler_job.py:154} INFO - Started process (PID=59087) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:37:45,580] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:37:45,584] {logging_mixin.py:112} INFO - [2020-06-16 23:37:45,582] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:37:45,638] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:37:45,780] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:37:45,932] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:45:00+00:00: scheduled__2020-06-11T06:45:00+00:00, externally triggered: False>
+[2020-06-16 23:37:45,942] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:37:45,972] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:45:00+00:00: scheduled__2020-06-11T06:45:00+00:00, externally triggered: False>
+[2020-06-16 23:37:46,010] {logging_mixin.py:112} INFO - [2020-06-16 23:37:46,008] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:45:00+00:00: scheduled__2020-06-11T06:45:00+00:00, externally triggered: False> successful
+[2020-06-16 23:37:46,037] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:37:46,048] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.485 seconds
+[2020-06-16 23:38:37,743] {scheduler_job.py:154} INFO - Started process (PID=59151) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:38:37,758] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:38:37,759] {logging_mixin.py:112} INFO - [2020-06-16 23:38:37,759] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:38:37,789] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:38:37,868] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:38:37,956] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:50:00+00:00: scheduled__2020-06-11T06:50:00+00:00, externally triggered: False>
+[2020-06-16 23:38:37,966] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:38:37,990] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:50:00+00:00: scheduled__2020-06-11T06:50:00+00:00, externally triggered: False>
+[2020-06-16 23:38:38,016] {logging_mixin.py:112} INFO - [2020-06-16 23:38:38,015] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:50:00+00:00: scheduled__2020-06-11T06:50:00+00:00, externally triggered: False> successful
+[2020-06-16 23:38:38,035] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:38:38,041] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.298 seconds
+[2020-06-16 23:39:30,004] {scheduler_job.py:154} INFO - Started process (PID=59204) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:39:30,022] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:39:30,024] {logging_mixin.py:112} INFO - [2020-06-16 23:39:30,023] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:39:30,071] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:39:30,165] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:39:30,391] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T06:55:00+00:00: scheduled__2020-06-11T06:55:00+00:00, externally triggered: False>
+[2020-06-16 23:39:30,398] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:39:30,422] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 06:55:00+00:00: scheduled__2020-06-11T06:55:00+00:00, externally triggered: False>
+[2020-06-16 23:39:30,442] {logging_mixin.py:112} INFO - [2020-06-16 23:39:30,441] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 06:55:00+00:00: scheduled__2020-06-11T06:55:00+00:00, externally triggered: False> successful
+[2020-06-16 23:39:30,455] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:39:30,461] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.457 seconds
+[2020-06-16 23:40:02,167] {scheduler_job.py:154} INFO - Started process (PID=59249) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:40:02,179] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:40:02,181] {logging_mixin.py:112} INFO - [2020-06-16 23:40:02,180] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:40:02,209] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:40:02,254] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:40:02,299] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:00:00+00:00: scheduled__2020-06-11T07:00:00+00:00, externally triggered: False>
+[2020-06-16 23:40:02,308] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:40:02,327] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:00:00+00:00: scheduled__2020-06-11T07:00:00+00:00, externally triggered: False>
+[2020-06-16 23:40:02,341] {logging_mixin.py:112} INFO - [2020-06-16 23:40:02,341] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:00:00+00:00: scheduled__2020-06-11T07:00:00+00:00, externally triggered: False> successful
+[2020-06-16 23:40:02,369] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:40:02,374] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.207 seconds
+[2020-06-16 23:40:54,470] {scheduler_job.py:154} INFO - Started process (PID=59303) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:40:54,503] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:40:54,507] {logging_mixin.py:112} INFO - [2020-06-16 23:40:54,506] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:40:54,533] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:40:54,594] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:40:54,643] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:05:00+00:00: scheduled__2020-06-11T07:05:00+00:00, externally triggered: False>
+[2020-06-16 23:40:54,649] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:40:54,670] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:05:00+00:00: scheduled__2020-06-11T07:05:00+00:00, externally triggered: False>
+[2020-06-16 23:40:54,688] {logging_mixin.py:112} INFO - [2020-06-16 23:40:54,687] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:05:00+00:00: scheduled__2020-06-11T07:05:00+00:00, externally triggered: False> successful
+[2020-06-16 23:40:54,711] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:40:54,720] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.251 seconds
+[2020-06-16 23:42:28,894] {scheduler_job.py:154} INFO - Started process (PID=59415) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:42:28,908] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:42:28,910] {logging_mixin.py:112} INFO - [2020-06-16 23:42:28,909] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:42:28,929] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:42:28,979] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:42:29,026] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:10:00+00:00: scheduled__2020-06-11T07:10:00+00:00, externally triggered: False>
+[2020-06-16 23:42:29,032] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:42:29,065] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:10:00+00:00: scheduled__2020-06-11T07:10:00+00:00, externally triggered: False>
+[2020-06-16 23:42:29,100] {logging_mixin.py:112} INFO - [2020-06-16 23:42:29,098] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:10:00+00:00: scheduled__2020-06-11T07:10:00+00:00, externally triggered: False> successful
+[2020-06-16 23:42:29,130] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:42:29,137] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.244 seconds
+[2020-06-16 23:43:21,109] {scheduler_job.py:154} INFO - Started process (PID=59478) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:43:21,120] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:43:21,122] {logging_mixin.py:112} INFO - [2020-06-16 23:43:21,121] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:43:21,145] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:43:21,209] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:43:21,327] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:15:00+00:00: scheduled__2020-06-11T07:15:00+00:00, externally triggered: False>
+[2020-06-16 23:43:21,333] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:43:21,356] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:15:00+00:00: scheduled__2020-06-11T07:15:00+00:00, externally triggered: False>
+[2020-06-16 23:43:21,371] {logging_mixin.py:112} INFO - [2020-06-16 23:43:21,370] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:15:00+00:00: scheduled__2020-06-11T07:15:00+00:00, externally triggered: False> successful
+[2020-06-16 23:43:21,395] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:43:21,399] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.290 seconds
+[2020-06-16 23:43:40,192] {scheduler_job.py:154} INFO - Started process (PID=59554) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:43:40,203] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:43:40,204] {logging_mixin.py:112} INFO - [2020-06-16 23:43:40,204] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:43:40,222] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:43:40,267] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:43:40,314] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:20:00+00:00: scheduled__2020-06-11T07:20:00+00:00, externally triggered: False>
+[2020-06-16 23:43:40,319] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:43:40,336] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:20:00+00:00: scheduled__2020-06-11T07:20:00+00:00, externally triggered: False>
+[2020-06-16 23:43:40,355] {logging_mixin.py:112} INFO - [2020-06-16 23:43:40,354] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:20:00+00:00: scheduled__2020-06-11T07:20:00+00:00, externally triggered: False> successful
+[2020-06-16 23:43:40,376] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:43:40,381] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.189 seconds
+[2020-06-16 23:44:35,057] {scheduler_job.py:154} INFO - Started process (PID=59654) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:44:35,067] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:44:35,070] {logging_mixin.py:112} INFO - [2020-06-16 23:44:35,069] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:44:35,092] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:44:35,154] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:44:35,207] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:25:00+00:00: scheduled__2020-06-11T07:25:00+00:00, externally triggered: False>
+[2020-06-16 23:44:35,212] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:44:35,230] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:25:00+00:00: scheduled__2020-06-11T07:25:00+00:00, externally triggered: False>
+[2020-06-16 23:44:35,246] {logging_mixin.py:112} INFO - [2020-06-16 23:44:35,245] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:25:00+00:00: scheduled__2020-06-11T07:25:00+00:00, externally triggered: False> successful
+[2020-06-16 23:44:35,257] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:44:35,262] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.205 seconds
+[2020-06-16 23:45:27,212] {scheduler_job.py:154} INFO - Started process (PID=59718) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:45:27,224] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:45:27,225] {logging_mixin.py:112} INFO - [2020-06-16 23:45:27,225] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:45:27,246] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:45:27,290] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:45:27,347] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:30:00+00:00: scheduled__2020-06-11T07:30:00+00:00, externally triggered: False>
+[2020-06-16 23:45:27,355] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:45:27,372] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:30:00+00:00: scheduled__2020-06-11T07:30:00+00:00, externally triggered: False>
+[2020-06-16 23:45:27,387] {logging_mixin.py:112} INFO - [2020-06-16 23:45:27,386] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:30:00+00:00: scheduled__2020-06-11T07:30:00+00:00, externally triggered: False> successful
+[2020-06-16 23:45:27,401] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:45:27,405] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.193 seconds
+[2020-06-16 23:46:19,425] {scheduler_job.py:154} INFO - Started process (PID=59775) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:46:19,436] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:46:19,437] {logging_mixin.py:112} INFO - [2020-06-16 23:46:19,437] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:46:19,461] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:46:19,504] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:46:19,572] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:35:00+00:00: scheduled__2020-06-11T07:35:00+00:00, externally triggered: False>
+[2020-06-16 23:46:19,578] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:46:19,595] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:35:00+00:00: scheduled__2020-06-11T07:35:00+00:00, externally triggered: False>
+[2020-06-16 23:46:19,608] {logging_mixin.py:112} INFO - [2020-06-16 23:46:19,607] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:35:00+00:00: scheduled__2020-06-11T07:35:00+00:00, externally triggered: False> successful
+[2020-06-16 23:46:19,620] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:46:19,626] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.201 seconds
+[2020-06-16 23:47:11,632] {scheduler_job.py:154} INFO - Started process (PID=59825) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:47:11,644] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:47:11,646] {logging_mixin.py:112} INFO - [2020-06-16 23:47:11,645] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:47:11,684] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:47:11,733] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:47:11,775] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:40:00+00:00: scheduled__2020-06-11T07:40:00+00:00, externally triggered: False>
+[2020-06-16 23:47:11,780] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:47:11,795] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:40:00+00:00: scheduled__2020-06-11T07:40:00+00:00, externally triggered: False>
+[2020-06-16 23:47:11,807] {logging_mixin.py:112} INFO - [2020-06-16 23:47:11,807] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:40:00+00:00: scheduled__2020-06-11T07:40:00+00:00, externally triggered: False> successful
+[2020-06-16 23:47:11,819] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:47:11,825] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.193 seconds
+[2020-06-16 23:48:03,850] {scheduler_job.py:154} INFO - Started process (PID=59865) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:48:03,859] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:48:03,861] {logging_mixin.py:112} INFO - [2020-06-16 23:48:03,861] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:48:03,884] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:48:03,934] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:48:03,971] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:45:00+00:00: scheduled__2020-06-11T07:45:00+00:00, externally triggered: False>
+[2020-06-16 23:48:03,976] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:48:03,988] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:45:00+00:00: scheduled__2020-06-11T07:45:00+00:00, externally triggered: False>
+[2020-06-16 23:48:04,000] {logging_mixin.py:112} INFO - [2020-06-16 23:48:03,999] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:45:00+00:00: scheduled__2020-06-11T07:45:00+00:00, externally triggered: False> successful
+[2020-06-16 23:48:04,010] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:48:04,017] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.167 seconds
+[2020-06-16 23:48:56,090] {scheduler_job.py:154} INFO - Started process (PID=59920) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:48:56,109] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:48:56,111] {logging_mixin.py:112} INFO - [2020-06-16 23:48:56,110] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:48:56,140] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:48:56,210] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:48:56,327] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:50:00+00:00: scheduled__2020-06-11T07:50:00+00:00, externally triggered: False>
+[2020-06-16 23:48:56,349] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:48:56,364] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:50:00+00:00: scheduled__2020-06-11T07:50:00+00:00, externally triggered: False>
+[2020-06-16 23:48:56,376] {logging_mixin.py:112} INFO - [2020-06-16 23:48:56,375] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:50:00+00:00: scheduled__2020-06-11T07:50:00+00:00, externally triggered: False> successful
+[2020-06-16 23:48:56,389] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:48:56,401] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.310 seconds
+[2020-06-16 23:49:48,277] {scheduler_job.py:154} INFO - Started process (PID=59967) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:49:48,291] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:49:48,293] {logging_mixin.py:112} INFO - [2020-06-16 23:49:48,292] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:49:48,314] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:49:48,369] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:49:48,412] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T07:55:00+00:00: scheduled__2020-06-11T07:55:00+00:00, externally triggered: False>
+[2020-06-16 23:49:48,418] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:49:48,433] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 07:55:00+00:00: scheduled__2020-06-11T07:55:00+00:00, externally triggered: False>
+[2020-06-16 23:49:48,444] {logging_mixin.py:112} INFO - [2020-06-16 23:49:48,443] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 07:55:00+00:00: scheduled__2020-06-11T07:55:00+00:00, externally triggered: False> successful
+[2020-06-16 23:49:48,455] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:49:48,462] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.185 seconds
+[2020-06-16 23:50:40,533] {scheduler_job.py:154} INFO - Started process (PID=60082) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:50:40,551] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:50:40,554] {logging_mixin.py:112} INFO - [2020-06-16 23:50:40,553] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:50:40,574] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:50:40,612] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:50:40,662] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T08:00:00+00:00: scheduled__2020-06-11T08:00:00+00:00, externally triggered: False>
+[2020-06-16 23:50:40,668] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:50:40,682] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 08:00:00+00:00: scheduled__2020-06-11T08:00:00+00:00, externally triggered: False>
+[2020-06-16 23:50:40,694] {logging_mixin.py:112} INFO - [2020-06-16 23:50:40,694] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 08:00:00+00:00: scheduled__2020-06-11T08:00:00+00:00, externally triggered: False> successful
+[2020-06-16 23:50:40,706] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:50:40,710] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.177 seconds
+[2020-06-16 23:52:02,026] {scheduler_job.py:154} INFO - Started process (PID=60315) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:52:02,044] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:52:02,047] {logging_mixin.py:112} INFO - [2020-06-16 23:52:02,046] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:52:02,077] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:52:02,150] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:52:02,265] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T08:05:00+00:00: scheduled__2020-06-11T08:05:00+00:00, externally triggered: False>
+[2020-06-16 23:52:02,270] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:52:02,314] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 08:05:00+00:00: scheduled__2020-06-11T08:05:00+00:00, externally triggered: False>
+[2020-06-16 23:52:02,414] {logging_mixin.py:112} INFO - [2020-06-16 23:52:02,410] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 08:05:00+00:00: scheduled__2020-06-11T08:05:00+00:00, externally triggered: False> successful
+[2020-06-16 23:52:02,456] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:52:02,508] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.482 seconds
+[2020-06-16 23:52:54,245] {scheduler_job.py:154} INFO - Started process (PID=60354) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:52:54,254] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:52:54,255] {logging_mixin.py:112} INFO - [2020-06-16 23:52:54,255] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:52:54,276] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:52:54,337] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-16 23:52:54,378] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T08:10:00+00:00: scheduled__2020-06-11T08:10:00+00:00, externally triggered: False>
+[2020-06-16 23:52:54,383] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-16 23:52:54,403] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 08:10:00+00:00: scheduled__2020-06-11T08:10:00+00:00, externally triggered: False>
+[2020-06-16 23:52:54,418] {logging_mixin.py:112} INFO - [2020-06-16 23:52:54,416] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 08:10:00+00:00: scheduled__2020-06-11T08:10:00+00:00, externally triggered: False> successful
+[2020-06-16 23:52:54,436] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-16 23:52:54,440] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.196 seconds
+[2020-06-16 23:53:46,460] {scheduler_job.py:154} INFO - Started process (PID=60392) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:53:46,470] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:53:46,471] {logging_mixin.py:112} INFO - [2020-06-16 23:53:46,471] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:53:46,492] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:53:46,540] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.080 seconds
+[2020-06-16 23:54:38,660] {scheduler_job.py:154} INFO - Started process (PID=60441) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:54:38,676] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:54:38,678] {logging_mixin.py:112} INFO - [2020-06-16 23:54:38,677] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:54:38,721] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:54:38,780] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.119 seconds
+[2020-06-16 23:55:47,507] {scheduler_job.py:154} INFO - Started process (PID=60539) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:55:47,518] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:55:47,520] {logging_mixin.py:112} INFO - [2020-06-16 23:55:47,520] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:55:47,548] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:55:47,578] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.072 seconds
+[2020-06-16 23:56:39,727] {scheduler_job.py:154} INFO - Started process (PID=60585) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:56:39,743] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:56:39,745] {logging_mixin.py:112} INFO - [2020-06-16 23:56:39,745] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:56:39,778] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:56:39,853] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.126 seconds
+[2020-06-16 23:57:40,381] {scheduler_job.py:154} INFO - Started process (PID=60661) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:57:40,397] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:57:40,399] {logging_mixin.py:112} INFO - [2020-06-16 23:57:40,399] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:57:40,420] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:57:40,448] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.067 seconds
+[2020-06-16 23:58:32,602] {scheduler_job.py:154} INFO - Started process (PID=60698) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:58:32,613] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:58:32,615] {logging_mixin.py:112} INFO - [2020-06-16 23:58:32,614] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:58:32,632] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:58:32,663] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.061 seconds
+[2020-06-16 23:59:24,826] {scheduler_job.py:154} INFO - Started process (PID=60739) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:59:24,835] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-16 23:59:24,836] {logging_mixin.py:112} INFO - [2020-06-16 23:59:24,836] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:59:24,855] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-16 23:59:24,888] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.062 seconds
+[2020-06-17 00:00:17,040] {scheduler_job.py:154} INFO - Started process (PID=60779) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:00:17,051] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-17 00:00:17,054] {logging_mixin.py:112} INFO - [2020-06-17 00:00:17,053] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:00:17,075] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:00:17,123] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-17 00:00:17,160] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T08:15:00+00:00: scheduled__2020-06-11T08:15:00+00:00, externally triggered: False>
+[2020-06-17 00:00:17,165] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False>
+[2020-06-17 00:00:17,170] {logging_mixin.py:112} INFO - [2020-06-17 00:00:17,169] {dagrun.py:375} WARNING - Failed to get task '<TaskInstance: file_sensor_test_v1.retrain_model 2020-06-11 04:05:00+00:00 [up_for_retry]>' for dag '<DAG: file_sensor_test_v1>'. Marking it as removed.
+[2020-06-17 00:00:17,171] {logging_mixin.py:112} INFO - [2020-06-17 00:00:17,171] {dagrun.py:375} WARNING - Failed to get task '<TaskInstance: file_sensor_test_v1.predict_model 2020-06-11 04:05:00+00:00 [up_for_retry]>' for dag '<DAG: file_sensor_test_v1>'. Marking it as removed.
+[2020-06-17 00:00:17,184] {logging_mixin.py:112} INFO - [2020-06-17 00:00:17,183] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 04:05:00+00:00: scheduled__2020-06-11T04:05:00+00:00, externally triggered: False> successful
+[2020-06-17 00:00:17,188] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 08:15:00+00:00: scheduled__2020-06-11T08:15:00+00:00, externally triggered: False>
+[2020-06-17 00:00:17,200] {logging_mixin.py:112} INFO - [2020-06-17 00:00:17,200] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 08:15:00+00:00: scheduled__2020-06-11T08:15:00+00:00, externally triggered: False> successful
+[2020-06-17 00:00:17,204] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-17 00:00:17,209] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.169 seconds
+[2020-06-17 00:01:09,340] {scheduler_job.py:154} INFO - Started process (PID=60828) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:01:09,366] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-17 00:01:09,372] {logging_mixin.py:112} INFO - [2020-06-17 00:01:09,369] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:01:09,425] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:01:09,484] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-17 00:01:09,523] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T08:20:00+00:00: scheduled__2020-06-11T08:20:00+00:00, externally triggered: False>
+[2020-06-17 00:01:09,528] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 08:20:00+00:00: scheduled__2020-06-11T08:20:00+00:00, externally triggered: False>
+[2020-06-17 00:01:09,545] {logging_mixin.py:112} INFO - [2020-06-17 00:01:09,545] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 08:20:00+00:00: scheduled__2020-06-11T08:20:00+00:00, externally triggered: False> successful
+[2020-06-17 00:01:09,550] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-17 00:01:09,555] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.215 seconds
+[2020-06-17 00:02:01,528] {scheduler_job.py:154} INFO - Started process (PID=60915) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:02:01,540] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-17 00:02:01,541] {logging_mixin.py:112} INFO - [2020-06-17 00:02:01,541] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:02:01,567] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 00:02:01,623] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-17 00:02:01,665] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T08:25:00+00:00: scheduled__2020-06-11T08:25:00+00:00, externally triggered: False>
+[2020-06-17 00:02:01,670] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 08:25:00+00:00: scheduled__2020-06-11T08:25:00+00:00, externally triggered: False>
+[2020-06-17 00:02:01,681] {logging_mixin.py:112} INFO - [2020-06-17 00:02:01,681] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 08:25:00+00:00: scheduled__2020-06-11T08:25:00+00:00, externally triggered: False> successful
+[2020-06-17 00:02:01,686] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-17 00:02:01,690] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.162 seconds
+[2020-06-17 13:12:50,212] {scheduler_job.py:154} INFO - Started process (PID=61082) to work on /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 13:12:50,598] {scheduler_job.py:1562} INFO - Processing file /Users/owner/airflow/dags/file_sensor.py for tasks to queue
+[2020-06-17 13:12:50,600] {logging_mixin.py:112} INFO - [2020-06-17 13:12:50,599] {dagbag.py:396} INFO - Filling up the DagBag from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 13:12:50,619] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['file_sensor_test_v1']) retrieved from /Users/owner/airflow/dags/file_sensor.py
+[2020-06-17 13:12:50,662] {scheduler_job.py:1284} INFO - Processing file_sensor_test_v1
+[2020-06-17 13:12:50,700] {scheduler_job.py:1294} INFO - Created <DagRun file_sensor_test_v1 @ 2020-06-11T08:30:00+00:00: scheduled__2020-06-11T08:30:00+00:00, externally triggered: False>
+[2020-06-17 13:12:50,704] {scheduler_job.py:759} INFO - Examining DAG run <DagRun file_sensor_test_v1 @ 2020-06-11 08:30:00+00:00: scheduled__2020-06-11T08:30:00+00:00, externally triggered: False>
+[2020-06-17 13:12:50,715] {logging_mixin.py:112} INFO - [2020-06-17 13:12:50,714] {dagrun.py:318} INFO - Marking run <DagRun file_sensor_test_v1 @ 2020-06-11 08:30:00+00:00: scheduled__2020-06-11T08:30:00+00:00, externally triggered: False> successful
+[2020-06-17 13:12:50,718] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: file_sensor_test_v1> because no tasks in DAG have SLAs
+[2020-06-17 13:12:50,722] {scheduler_job.py:162} INFO - Processing /Users/owner/airflow/dags/file_sensor.py took 0.511 seconds
